@@ -1,0 +1,4 @@
+EXECUTE xp_regread
+ @rootkey = 'HKEY_LOCAL_MACHINE',
+  @key = 'SOFTWARE\Microsoft\Microsoft SQL Server',
+  @value_name = 'InstalledInstances'
